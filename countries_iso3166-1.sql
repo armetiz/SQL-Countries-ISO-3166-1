@@ -13,7 +13,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- --------------------------------------------------------
 
 
-CREATE TABLE IF NOT EXISTS `Countries` (
+CREATE TABLE IF NOT EXISTS `countries` (
   `code` int(3) NOT NULL,
   `alpha2` varchar(2) NOT NULL,
   `alpha3` varchar(3) NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `Countries` (
 -- Contenu de la table `Countries`
 --
 
-INSERT INTO `realcountry` (`code`, `alpha2`, `alpha3`, `langCS`, `langDE`, `langEN`, `langES`, `langFR`, `langIT`, `langNL`) VALUES
+INSERT INTO `countries` (`code`, `alpha2`, `alpha3`, `langCS`, `langDE`, `langEN`, `langES`, `langFR`, `langIT`, `langNL`) VALUES
 (4, 'AF', 'AFG', 'Afghanistán', 'Afghanistan', 'Afghanistan', 'Afganistán', 'Afghanistan', 'Afghanistan', 'Afghanistan'),
 (8, 'AL', 'ALB', 'Albánie', 'Albanien', 'Albania', 'Albania', 'Albanie', 'Albania', 'Albanië'),
 (10, 'AQ', 'ATA', 'Antarctica', 'Antarktis', 'Antarctica', 'Antartida', 'Antarctique', 'Antartide', 'Antarctica'),
